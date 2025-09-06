@@ -1,14 +1,25 @@
 # BioLuminescence - AI Microscopy Analysis Tool
 
-BioLuminescence is an AI-powered microscopy image analysis application that automatically detects and identifies biological species in microscopy images using deep learning models.
+BioLuminescence is an AI-powered microscopy image analysis application that automatically detects and identifies phytoplankton species in microscopy images using deep learning models. Currently trained to recognize 4 specific phytoplankton species commonly found in marine environments.
 
 ## Features
 
-- 🧬 **Automated Species Detection**: AI-powered recognition of biological species in microscopy images
+- 🧬 **Automated Species Detection**: AI-powered recognition of phytoplankton species in microscopy images
 - 📊 **Detailed Analysis**: Provides species counts, confidence scores, and bounding box visualizations
 - 📈 **Dashboard**: View and manage your analysis history
-- 🎯 **High Accuracy**: Uses Faster R-CNN model trained on biological datasets
+- 🎯 **High Accuracy**: Uses Faster R-CNN model trained on phytoplankton datasets
 - 💾 **Local Storage**: All analyses are stored locally in your browser
+
+## Supported Species
+
+**Important**: This model is currently trained to detect only **4 phytoplankton species**:
+
+1. **Alexandrium** - A genus of dinoflagellates, some species produce harmful algal blooms
+2. **Asterionellopsis glacialis** - A diatom species commonly found in marine environments
+3. **Cerataulina** - A centric diatom genus with distinctive horn-like projections
+4. **Ceratium** - A genus of dinoflagellates with characteristic horn-like extensions
+
+**Note**: The model will only accurately identify these 4 species. Images containing other organisms may not be correctly classified.
 
 ## Prerequisites
 
