@@ -12,20 +12,95 @@ BioLuminescence is an AI-powered microscopy image analysis application that auto
 
 ## Prerequisites
 
-Before running BioLuminescence, ensure you have the following installed on your system:
+Before running BioLuminescence, you need to install the following software on your computer:
 
-### Required Software
+### Step-by-Step Installation Guide
 
-1. **Python 3.11+**
-   - Download from [python.org](https://www.python.org/downloads/)
-   - Make sure to check "Add Python to PATH" during installation
+#### 1. Install Python 3.11+
 
-2. **Node.js 18+**
-   - Download from [nodejs.org](https://nodejs.org/)
-   - This includes npm (Node Package Manager)
+**For Windows:**
+1. Go to [python.org/downloads](https://www.python.org/downloads/)
+2. Click the big yellow "Download Python 3.11.x" button
+3. Run the downloaded installer (.exe file)
+4. **IMPORTANT**: Check the box "Add Python to PATH" at the bottom of the installer
+5. Click "Install Now"
+6. Wait for installation to complete
+7. Click "Close"
 
-3. **Git** (optional, for cloning)
-   - Download from [git-scm.com](https://git-scm.com/)
+**For macOS:**
+1. Go to [python.org/downloads](https://www.python.org/downloads/)
+2. Click "Download Python 3.11.x for macOS"
+3. Run the downloaded .pkg file
+4. Follow the installation wizard (click "Continue" through all steps)
+5. Click "Install" and enter your password when prompted
+6. Click "Close" when done
+
+**For Linux (Ubuntu/Debian):**
+```bash
+sudo apt update
+sudo apt install python3.11 python3.11-venv python3-pip
+```
+
+**Verify Installation:**
+- Open Command Prompt (Windows) or Terminal (macOS/Linux)
+- Type: `python3 --version` or `python --version`
+- You should see: `Python 3.11.x`
+
+#### 2. Install Node.js 18+
+
+**For Windows:**
+1. Go to [nodejs.org](https://nodejs.org/)
+2. Download the "LTS" version (recommended for most users)
+3. Run the downloaded installer (.msi file)
+4. Follow the installation wizard (accept all defaults)
+5. Click "Finish" when done
+
+**For macOS:**
+1. Go to [nodejs.org](https://nodejs.org/)
+2. Download the "LTS" version for macOS
+3. Run the downloaded .pkg file
+4. Follow the installation wizard
+5. Click "Install" and enter your password
+6. Click "Close" when done
+
+**For Linux (Ubuntu/Debian):**
+```bash
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+**Verify Installation:**
+- Open Command Prompt (Windows) or Terminal (macOS/Linux)
+- Type: `node --version`
+- You should see: `v18.x.x` or higher
+- Type: `npm --version`
+- You should see: `9.x.x` or higher
+
+#### 3. Install Git (Optional - for cloning the repository)
+
+**For Windows:**
+1. Go to [git-scm.com](https://git-scm.com/)
+2. Click "Download for Windows"
+3. Run the downloaded installer
+4. Accept all default settings during installation
+5. Click "Finish" when done
+
+**For macOS:**
+1. Go to [git-scm.com](https://git-scm.com/)
+2. Click "Download for Mac"
+3. Run the downloaded installer
+4. Follow the installation wizard
+5. Click "Install" and enter your password
+
+**For Linux (Ubuntu/Debian):**
+```bash
+sudo apt install git
+```
+
+**Verify Installation:**
+- Open Command Prompt (Windows) or Terminal (macOS/Linux)
+- Type: `git --version`
+- You should see: `git version 2.x.x`
 
 ## Installation & Setup
 
