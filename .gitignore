@@ -65,5 +65,4 @@ BioLuminescence Backend/results/result_*.png
 BioLuminescence Backend/results/result_*.jpeg
 
 # Model files (if too large for git)
-# mixmodel.pth
 # mix_coco.json
